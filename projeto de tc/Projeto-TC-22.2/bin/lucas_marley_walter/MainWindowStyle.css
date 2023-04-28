@@ -1,0 +1,24 @@
+.root {
+    -fx-background-color: #141414;
+    -fx-background-radius: 25;
+}
+.workArea{
+    -fx-background-color: #272727;
+    -fx-background-radius: 20;
+}
+.minimizationButton{
+    -fx-background-color: #5200FF;
+    -fx-background-radius: 10;
+}
+.intersectionButton{
+    -fx-background-color: #5200FF;
+    -fx-background-radius: 10;
+}
+.convertButton{
+    -fx-background-color: #5200FF;
+    -fx-background-radius: 10;
+}
+.exitButton{
+    -fx-background-color: #FE0606;
+    -fx-background-radius: 15;
+}

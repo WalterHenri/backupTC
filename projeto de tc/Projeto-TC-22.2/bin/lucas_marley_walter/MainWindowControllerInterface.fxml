@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="generalArea" prefHeight="594.0" prefWidth="834.0" stylesheets="@MainWindowStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lucas_marley_walter.MainWindowController">
+   <children>
+      <Pane layoutX="230.0" layoutY="51.0" prefHeight="530.0" prefWidth="591.0" styleClass="workArea" />
+      <Pane fx:id="btn1" layoutX="19.0" layoutY="152.0" prefHeight="39.0" prefWidth="192.0" styleClass="minimizationButton">
+         <children>
+            <ImageView fx:id="btn1" fitHeight="39.0" fitWidth="174.0" layoutX="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/minimization%20button.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="19.0" layoutY="205.0" prefHeight="39.0" prefWidth="192.0" styleClass="intersectionButton">
+         <children>
+            <ImageView fx:id="btn2" fitHeight="39.0" fitWidth="174.0" layoutX="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/intersection%20button.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="19.0" layoutY="258.0" prefHeight="39.0" prefWidth="192.0" styleClass="convertButton">
+         <children>
+            <ImageView fx:id="btn3" fitHeight="39.0" fitWidth="174.0" layoutX="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/convert%20button.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="21.0" layoutY="519.0" prefHeight="45.0" prefWidth="104.0" styleClass="exitButton">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="69.0" layoutX="16.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/exit%20button.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="27.0" fitWidth="147.0" layoutX="30.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/tittleApp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="closeButton" fitHeight="24.0" fitWidth="24.0" layoutX="782.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/closeButton.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
